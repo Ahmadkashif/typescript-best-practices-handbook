@@ -1,0 +1,6 @@
+{
+  "name": "bench-logging",
+  "private": true,
+  "type": "module",
+  "dependencies": { "pino": "10.4.0", "winston": "3.19.0" }
+}

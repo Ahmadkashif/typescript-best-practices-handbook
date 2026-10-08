@@ -1,0 +1,231 @@
+# Sources
+
+All sources used by this research. Guide rules cite these IDs.
+
+## Version evidence (V-xx)
+
+- V-01 TypeScript dist-tags/time: `npm view typescript` (2026-10-06): 7.0.2 latest, 2026-07-08
+- V-02 Announcing TypeScript 7.0: https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/
+- V-03 typescript-eslint peerDependencies: `npm view typescript-eslint peerDependencies` (typescript >=4.8.4 <6.1.0)
+- V-04 Node.js TypeScript docs (v26.10.0): https://nodejs.org/api/typescript.html
+- V-05 Node.js release schedule: https://github.com/nodejs/Release and https://nodejs.org/dist/index.json
+- V-06 npm registry versions for the stack libraries: `npm view <pkg> version` (2026-10-06)
+
+## Articles (A-001..A-150)
+
+- A-001 Announcing TypeScript 7.0. TS team (Microsoft), 2026-07-08. https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/
+- A-002 Announcing TypeScript 6.0. TS team, 2026-03-23. https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/
+- A-003 Announcing TypeScript 5.9. TS team, 2025-08-01. https://devblogs.microsoft.com/typescript/announcing-typescript-5-9/
+- A-004 Announcing TypeScript 5.8. TS team, 2025-02-28. https://devblogs.microsoft.com/typescript/announcing-typescript-5-8/
+- A-005 Announcing TypeScript 5.7. TS team, 2024-11-22. https://devblogs.microsoft.com/typescript/announcing-typescript-5-7/
+- A-006 Announcing TypeScript 5.2. TS team, 2023-08-24. https://devblogs.microsoft.com/typescript/announcing-typescript-5-2/
+- A-007 TSConfig Reference. TS team, living (2026). https://www.typescriptlang.org/tsconfig/
+- A-008 The TSConfig Cheat Sheet. Matt Pocock, 2024-04-23. https://www.totaltypescript.com/tsconfig-cheat-sheet
+- A-009 Running TypeScript Natively. Node.js project, living (2026). https://nodejs.org/en/learn/typescript/run-natively
+- A-010 Modules: TypeScript (type stripping). Node.js project, v26.10 docs (2026). https://nodejs.org/api/typescript.html
+- A-011 Test runner (node:test). Node.js project, v24/26 docs. https://nodejs.org/api/test.html
+- A-012 Environment variables / --env-file / process.loadEnvFile. Node.js project, v24+ docs. https://nodejs.org/api/environment_variables.html
+- A-013 Permissions (Permission Model). Node.js project, v26 docs. https://nodejs.org/api/permissions.html
+- A-014 Packages: subpath imports (`imports` field). Node.js project, living. https://nodejs.org/api/packages.html#subpath-imports
+- A-015 Modules: ECMAScript modules. Node.js project, living. https://nodejs.org/api/esm.html
+- A-016 Choosing Compiler Options (Modules guide). TS team (Andrew Branch), living. https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html
+- A-017 Modules: Theory. TS team (Andrew Branch), living. https://www.typescriptlang.org/docs/handbook/modules/theory.html
+- A-018 FalseCJS / Masquerading as CJS (problem docs). Andrew Branch (attw), 2023-2025. https://github.com/arethetypeswrong/arethetypeswrong.github.io/blob/main/docs/problems/FalseCJS.md
+- A-019 Parse, don't validate. Alexis King, 2019-11-05. https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/
+- A-020 Linting with Type Information. typescript-eslint, living. https://typescript-eslint.io/getting-started/typed-linting/
+- A-021 no-floating-promises. typescript-eslint, living. https://typescript-eslint.io/rules/no-floating-promises/
+- A-022 Shared Configs. typescript-eslint, living. https://typescript-eslint.io/users/configs/
+- A-023 Why I Don't Like Enums. Matt Pocock, 2023 (updated). https://www.totaltypescript.com/why-i-dont-like-typescript-enums
+- A-024 TypeScript 5.8 Ships --erasableSyntaxOnly To Disable Enums. Matt Pocock, 2025-01. https://www.totaltypescript.com/erasable-syntax-only
+- A-025 erasableSyntaxOnly. Stefan Baumgartner (oida.dev), 2025-02-03. https://oida.dev/erasable-syntax-only/
+- A-026 What is a Branded Type?. Matt Pocock, 2023. https://www.totaltypescript.com/workshops/advanced-typescript-patterns/branded-types/what-is-a-branded-type
+- A-027 Clarifying the `satisfies` Operator. Matt Pocock, 2024. https://www.totaltypescript.com/clarifying-the-satisfies-operator
+- A-028 Type vs Interface: Which Should You Use?. Matt Pocock, 2024. https://www.totaltypescript.com/type-vs-interface-which-should-you-use
+- A-029 Should You Declare Return Types?. Matt Pocock, 2024 (updated). https://www.totaltypescript.com/should-you-declare-return-types
+- A-030 Build a Node App with TypeScript. Matt Pocock, 2024. https://www.totaltypescript.com/typescript-and-node
+- A-031 any Considered Harmful, Except For These Cases. Matt Pocock, 2024. https://www.totaltypescript.com/any-considered-harmful
+- A-032 A Small Year for tsc, a Giant Year for TypeScript. Dan Vanderkam, 2025-12-19. https://effectivetypescript.com/2025/12/19/ts-2025/
+- A-033 Item 36: Use a Distinct Type for Special Values. Dan Vanderkam, 2024-06-13. https://effectivetypescript.com/2024/06/13/special-values/
+- A-034 Item 74: Know How to Reconstruct Types at Runtime. Dan Vanderkam, 2024-10-31. https://effectivetypescript.com/2024/10/31/runtime-types/
+- A-035 TypeScript 5.5: A Blockbuster Release. Dan Vanderkam, 2024-07-02. https://effectivetypescript.com/2024/07/02/ts-55/
+- A-036 neverthrow README. supermacro (OSS), living. https://github.com/supermacro/neverthrow
+- A-037 Effect: Expected Errors. Effect team, living. https://effect.website/docs/error-management/expected-errors/
+- A-038 Error: cause. MDN, living. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/cause
+- A-039 Distinguish operational vs programmer errors. Yoni Goldberg et al., 2017-2024. https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/operationalvsprogrammererror.md
+- A-040 Biome v2: codename Biotype. Biome team, 2025-06-17. https://biomejs.dev/blog/biome-v2/
+- A-041 ESLint v10.0.0 released. ESLint team, 2026-02-06. https://eslint.org/blog/2026/02/eslint-v10.0.0-released/
+- A-042 typescript-eslint issue #12518: TypeScript 7.0.2 Support. typescript-eslint maintainers, 2026-07-08. https://github.com/typescript-eslint/typescript-eslint/issues/12518
+- A-043 Vitest 4.0. Vitest team (VoidZero), 2025-10-22. https://vitest.dev/blog/vitest-4
+- A-044 A 10x Faster TypeScript. Anders Hejlsberg, 2025-03-11. https://devblogs.microsoft.com/typescript/typescript-native-port/
+- A-045 Announcing TypeScript 5.5. TS team, 2024-06-20. https://devblogs.microsoft.com/typescript/announcing-typescript-5-5/
+- A-046 Announcing TypeScript 5.0. TS team, 2023-03-16. https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/
+- A-047 Handbook: Narrowing (discriminated unions, exhaustiveness). TS team, living. https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+- A-048 require(esm) in Node.js. Joyee Cheung (Node TSC), 2024-03-18. https://joyeecheung.github.io/blog/2024/03/18/require-esm-in-node-js/
+- A-049 The End of Dual CJS/ESM Builds in Node.js. OpenReplay Team, 2026-07-27. https://blog.openreplay.com/end-dual-cjs-esm-builds-nodejs/
+- A-050 Make accessing objects safer by enabling noUncheckedIndexedAccess. Matt Pocock, 2023. https://www.totaltypescript.com/tips/make-accessing-objects-safer-by-enabling-nouncheckedindexedaccess-in-tsconfig
+- A-051 Zetkin issue: enable noUncheckedIndexedAccess?. Zetkin OSS maintainers, 2024. https://github.com/zetkin/app.zetkin.org/issues/1864
+- A-052 exactOptionalPropertyTypes (TSConfig). TS team, living. https://www.typescriptlang.org/tsconfig/exactOptionalPropertyTypes.html
+- A-053 Libraries should use exactOptionalPropertyTypes. Dimitri Mitropoulos, 2023. https://github.com/dimitropoulos/librarys-should-use-exactOptionalPropertyTypes
+- A-054 TypeScript: Errors as Values vs Exceptions Performance Benchmarks. HAMY, 2025-05-28. https://hamy.xyz/blog/2025-05_typescript-errors-vs-exceptions-benchmarks
+- A-055 Fixing Error Handling in TypeScript: Why a Standard Result Type Isn't Enough. Daniel Tian / Ethan Resnick (Zingage), 2025-07-14. https://engineering.zingage.com/fixing-error-handling-in-typescript-why-a-standard-result-type-isnt-enough/
+- A-056 An error isn't always an exception. Matthias Le Brun (Swan), 2023-07-26. https://www.swan.io/blog-posts/an-error-isnt-always-an-exception
+- A-057 node:test vs Vitest vs Jest 2026. PkgPulse, 2026-03-09. https://www.pkgpulse.com/guides/node-test-vs-vitest-vs-jest-native-test-runner-2026
+- A-058 How To Strongly Type process.env. Matt Pocock, 2024. https://www.totaltypescript.com/how-to-strongly-type-process-env
+- A-059 TypeScript Performance (wiki). TS team, living. https://github.com/microsoft/TypeScript/wiki/Performance
+- A-060 tsconfig/bases. tsconfig org (community, TS-team endorsed), living. https://github.com/tsconfig/bases
+- A-061 ts-reset. Matt Pocock, 2023-2025. https://github.com/total-typescript/ts-reset
+- A-062 consistent-type-imports. typescript-eslint, living. https://typescript-eslint.io/rules/consistent-type-imports/
+- A-063 ts-pattern. Gabriel Vergnaud, living. https://github.com/gvergnaud/ts-pattern
+- A-064 Node.js v22.18.0 (LTS) release. Node.js release team, 2025-07-31. https://nodejs.org/blog/release/v22.18.0
+- A-065 Node.js v24.0.0 release. Node.js release team, 2025-05-06. https://nodejs.org/blog/release/v24.0.0
+- A-066 Node.js runs TypeScript natively in 2026. eCorp IT, 2026-07. https://ecorpit.com/nodejs-native-typescript-type-stripping-2026/
+- A-067 TypeScript 7 Native Compiler: Early-Adopter Migration Readiness. Digital Applied, 2026-07-16. https://www.digitalapplied.com/blog/typescript-7-native-compiler-early-adopter-migration-readiness
+- A-068 Managing TypeScript Packages in Monorepos. Juri Strumpflohner (Nx), 2025-01-28. https://nx.dev/blog/managing-ts-packages-in-monorepos
+- A-069 Effect vs neverthrow. Effect team, living. https://effect.website/docs/additional-resources/effect-vs-neverthrow/
+- A-070 Handbook: Enums (Objects vs Enums, const enum pitfalls). TS team, living. https://www.typescriptlang.org/docs/handbook/enums.html
+- A-071 isolatedDeclarations (TSConfig). TS team, living. https://www.typescriptlang.org/tsconfig/isolatedDeclarations.html
+- A-072 Vitest Features. Vitest team, living. https://vitest.dev/guide/features
+- A-073 Are the Types Wrong?. Andrew Branch, living. https://arethetypeswrong.github.io/
+- A-074 Use only the built-in Error object. Yoni Goldberg et al., 2017-2024. https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/useonlythebuiltinerror.md
+- A-075 Relative import paths need explicit file extensions in ECMAScript imports. Matt Pocock, 2024. https://www.totaltypescript.com/relative-import-paths-need-explicit-file-extensions-in-ecmascript-imports
+- A-076 Node.js Best Practices (README, all sections). Yoni Goldberg et al., 2024-01-03 (last major update, Node 22). https://github.com/goldbergyoni/nodebestpractices
+- A-077 Fastify Benchmarks. Fastify team, updated 2026-10-01. https://fastify.dev/benchmarks/
+- A-078 Don't Block the Event Loop (or the Worker Pool). Node.js project, living doc (2026). https://nodejs.org/en/learn/asynchronous-work/dont-block-the-event-loop
+- A-079 Introducing Zod 4. Colin McDonnell, 2025-07 (stable). https://zod.dev/v4
+- A-080 OWASP Node.js Security Cheat Sheet. OWASP, living doc. https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html
+- A-081 10 best practices to containerize Node.js web applications with Docker. Liran Tal & Yoni Goldberg (Snyk), 2022-09-14. https://snyk.io/blog/10-best-practices-to-containerize-nodejs-web-applications-with-docker/
+- A-082 NPM Security Best Practices after Shai-Hulud. Liran Tal (Snyk), 2025-11-26. https://snyk.io/articles/npm-security-best-practices-shai-hulud-attack/
+- A-083 9 Tips for Containerizing Your Node.js Application. Ajeet Raina (Docker), 2022-10-13. https://www.docker.com/blog/9-tips-for-containerizing-your-node-js-application/
+- A-084 Pino Logger: Node.js Logging Setup, Best Practices, and Monitoring. SigNoz, 2025. https://signoz.io/guides/pino-logger-nodejs-logging-library/
+- A-085 Node.js reference architecture: Pino for logging. IBM/Red Hat Node.js team, 2021. https://developer.ibm.com/blogs/nodejs-reference-architectire-pino-for-logging
+- A-086 OpenTelemetry JS: Getting Started (Node.js). OpenTelemetry/CNCF, living doc. https://opentelemetry.io/docs/languages/js/getting-started/nodejs/
+- A-087 Kubernetes graceful shutdown: handling SIGTERM and pod termination. Jorijn Schrijvershof, 2025. https://jorijn.com/en/knowledge-base/kubernetes/troubleshooting/kubernetes-graceful-shutdown-sigterm-pod-termination/
+- A-088 10 Insights from Adopting TypeScript at Scale. Rob Palmer (Bloomberg, TC39 co-chair), 2020-11-09. https://www.bloomberg.com/company/stories/10-insights-adopting-typescript-at-scale/ (403 to bot; read via InfoQ summary https://www.infoq.com/news/2020/11/bloomberg-typescript-adoption/)
+- A-089 Migrating millions of lines of code to TypeScript. Andrew Lunny (Stripe), 2022-05-20. https://stripe.dev/blog/migrating-to-typescript
+- A-090 Migrating a large Flow monorepo to TypeScript. Shawn Walton (Yelp), 2026-08-04. https://engineeringblog.yelp.com/2026/08/migrating-a-large-flow-monorepo-to-typescript.html
+- A-091 ts-migrate: A tool for migrating to TypeScript at scale. Sergii Rudenko (Airbnb), 2020-08-18. https://medium.com/p/cd23bfeb5cc (Airbnb Engineering)
+- A-092 TypeScript at Slack. Felix Rieseberg (Slack), 2017-04-11. https://slack.engineering/typescript-at-slack/
+- A-093 Figma's journey to TypeScript. Simon Willison (commentary on Figma eng blog), 2024-05-04. https://simonwillison.net/2024/May/4/figmas-journey-to-typescript/
+- A-094 Node.js in Flames (Express latency at Netflix). InfoQ on Yunong Xiao (Netflix), 2014-12. https://www.infoq.com/news/2014/12/expressjs-burned-netflix
+- A-095 Node.js flame graphs on Linux. Brendan Gregg (Netflix), 2014-09-17. https://www.brendangregg.com/blog/2014-09-17/node-flame-graphs-on-linux.html
+- A-096 A year of improving Node.js compatibility in Cloudflare Workers. Cloudflare (James Snell et al.), 2025-09. https://blog.cloudflare.com/nodejs-workers-2025/
+- A-097 Fluid compute (Vercel docs). Vercel, 2025-04 (default since). https://vercel.com/docs/fluid-compute
+- A-098 Uber tech stack, part one: foundation. Uber Engineering, 2016. https://eng.uber.com/tech-stack-part-one-foundation
+- A-099 Permissions (Node.js API docs). Node.js project, living doc (v25/v26). https://nodejs.org/api/permissions.html
+- A-100 undici README and benchmarks. Node.js project (Matteo Collina et al.), 2026 (Node 24.14.1 bench). https://github.com/nodejs/undici
+- A-101 Dependency Composition. Daniel Somerfield (martinfowler.com), 2023-05-23. https://martinfowler.com/articles/dependency-composition.html
+- A-102 Vertical Slice Architecture. Jimmy Bogard, 2018-04-19. https://jimmybogard.com/vertical-slice-architecture/
+- A-103 Hexagonal Architecture (Ports and Adapters). Alistair Cockburn, 2005-09-04. https://alistair.cockburn.us/hexagonal-architecture/
+- A-104 The Modular Monolith (Platformatic Watt docs). Platformatic (Matteo Collina), 2026 (v3.71). https://docs.platformatic.dev/docs/concepts/modular-monolith
+- A-105 Pool Sizing (node-postgres guide). Brian Carlson (pg author), living doc. https://node-postgres.com/guides/pool-sizing
+- A-106 About Pool Sizing (HikariCP wiki). Brett Wooldridge, living doc. https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing
+- A-107 Prisma 7 performance (news analysis). Daniel Curtis (InfoQ), 2026-01-20. https://infoq.com/news/2026/01/prisma-7-performance/
+- A-108 Announcing Prisma ORM 7.0.0. Prisma, 2025-11. https://blog.prisma.io/blog/announcing-prisma-orm-7-0-0
+- A-109 Kysely: Type-Safe SQL Without ORM Overhead. Susannah McCloskey (Atomic Object), 2026-01-19. https://spin.atomicobject.com/kysely-type-safe-sql/
+- A-110 Kysely docs: Introduction. Kysely (Sami Koskimäki, Igal Klebanov), living doc. https://kysely.dev/docs/intro
+- A-111 Drizzle vs Prisma ORM in 2026. MakerKit, 2026-01-24 (upd. 2026-09). https://makerkit.dev/blog/tutorials/drizzle-vs-prisma
+- A-112 Kysely vs Drizzle vs Prisma: type-safe SQL 2026. PkgPulse, 2026. https://www.pkgpulse.com/guides/kysely-vs-drizzle-vs-prisma-type-safe-sql-2026
+- A-113 Pattern: Transactional outbox. Chris Richardson, living doc. https://microservices.io/patterns/data/transactional-outbox
+- A-114 Zero-downtime database migrations (expand/contract). The Backend Developers, 2025. https://thebackenddevelopers.substack.com/p/zero-downtime-database-migrations
+- A-115 Valibot: Comparison (with Zod). Fabian Hiller, living doc (v1.x). https://valibot.dev/guides/comparison/
+- A-116 Standard Schema. Colin McDonnell, Fabian Hiller, David Blass, 2025-2026. https://standardschema.dev/
+- A-117 Fastify Type Providers. Fastify, living doc (v5). https://fastify.dev/docs/latest/Reference/Type-Providers/
+- A-118 ArkType homepage and benchmarks. David Blass, 2025-2026 (v2). https://arktype.io/
+- A-119 Handling Environment Variables in Node.js. Platformatic, 2024. https://blog.platformatic.dev/handling-environment-variables-in-nodejs
+- A-120 The Twelve-Factor App: III. Config. Adam Wiggins (Heroku), 2011 (open-sourced 2024). https://12factor.net/config
+- A-121 Parse, don't validate. Alexis King, 2019-11-05. https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/
+- A-122 Pino docs: Best practices / Transports / Asynchronous logging. Pino (Matteo Collina, David Mark Clements), living doc (v10). https://getpino.io/#/docs/best-practices
+- A-123 Liveness, Readiness, and Startup Probes. Kubernetes/CNCF, living doc. https://kubernetes.io/docs/concepts/configuration/liveness-readiness-startup-probes/
+- A-124 Zero-code instrumentation (JavaScript). OpenTelemetry, living doc. https://opentelemetry.io/docs/zero-code/js/
+- A-125 Backpressuring in Streams. Node.js project, living doc. https://nodejs.org/en/learn/modules/backpressuring-in-streams
+- A-126 Distroless container images. Google, living doc (2026). https://github.com/GoogleContainerTools/distroless
+- A-127 npm Docs: Trusted publishing for npm packages. npm/GitHub, living doc (2025-2026). https://docs.npmjs.com/trusted-publishers
+- A-128 OWASP Docker Security Cheat Sheet. OWASP, living doc. https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html
+- A-129 Helmet docs. Evan Hahn, living doc (v8). https://helmet.js.org/
+- A-130 Profiling Node.js Applications. Node.js project, living doc. https://nodejs.org/en/learn/getting-started/profiling
+- A-131 Renovate docs (incl. minimumReleaseAge). Mend/Renovate, living doc. https://docs.renovatebot.com/configuration-options/#minimumreleaseage
+- A-132 Setting a minimum release age (cooldown) for npm/pnpm/yarn. Matteo Collina (Node TSC), 2026-04-30. https://gist.github.com/mcollina/b294a6c39ee700d24073c0e5a4e93104
+- A-133 Choosing the best Node.js Docker image. Liran Tal & Adrian Mouat (Snyk), 2022-09-29 (upd. 2023-08-31). https://snyk.io/blog/choosing-the-best-node-js-docker-image/
+- A-134 Choosing the best Node.js Docker image (Chainguard). Chainguard, 2025-11-14. https://www.chainguard.dev/supply-chain-security-101/choosing-the-best-node-js-docker-image
+- A-135 The Hidden Cost of Context. Platformatic, 2025 (Node 22.17.1 vs 24.4.1 benchmarks). https://blog.platformatic.dev/the-hidden-cost-of-context
+- A-136 Learning to Swim with Piscina, the Node.js worker pool. James Snell & Anna Henningsen (NearForm, Node core), 2020-06-04. https://nearform.com/blog/learning-to-swim-with-piscina-the-node-js-worker-pool
+- A-137 Troubleshooting: Random 502 Errors Behind a Load Balancer. Flightcontrol/Ravion, 2025. https://www.ravion.com/docs/troubleshooting/load-balancer-502-keepalive-timeout (was flightcontrol.dev)
+- A-138 Introducing Express v5. Express TC, 2024-10-15. https://expressjs.com/en/blog/2024-10-15-v5-release
+- A-139 close-with-grace. Matteo Collina, living (2025-2026). https://github.com/mcollina/close-with-grace
+- A-140 @fastify/under-pressure. Fastify, living (v9). https://github.com/fastify/under-pressure
+- A-141 Security hardening / secure use reference for GitHub Actions. GitHub, living doc. https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions
+- A-142 NestJS vs Fastify. Stanley Ulili (Better Stack), 2025-09-18. https://betterstack.com/community/guides/scaling-nodejs/nestjs-vs-fastify/
+- A-143 The end of dual CJS/ESM builds in Node.js. OpenReplay, 2026-07-27. https://blog.openreplay.com/end-dual-cjs-esm-builds-nodejs/
+- A-144 Token bucket rate limiter with Redis and Node.js. Redis, living doc. https://redis.io/docs/latest/develop/use-cases/rate-limiter/nodejs/
+- A-145 @fastify/rate-limit. Fastify, living (v10, Fastify 5). https://github.com/fastify/fastify-rate-limit
+- A-146 Security Best Practices (Node.js Learn). Node.js Security WG, living doc (2026). https://nodejs.org/en/learn/getting-started/security-best-practices
+- A-147 RFC 9457: Problem Details for HTTP APIs. M. Nottingham, E. Wilde, S. Dalal (IETF), 2023-07. https://www.rfc-editor.org/rfc/rfc9457.html
+- A-148 MonolithFirst. Martin Fowler, 2015-06-03. https://martinfowler.com/bliki/MonolithFirst.html
+- A-149 Hono: Getting started with Node.js. Hono (Yusuke Wada), living doc (v4). https://hono.dev/docs/getting-started/nodejs
+- A-150 Performance measurement APIs (perf_hooks). Node.js project, living doc (v26). https://nodejs.org/api/perf_hooks.html
+
+## Books (B-01..B-18)
+
+Catalogued from publisher pages, TOCs, reviews and talks only. Full notes: `phase-2/books.md`.
+
+- B-01 Effective TypeScript, 2nd ed.. https://effectivetypescript.com/
+- B-02 Programming TypeScript. https://www.oreilly.com/library/view/programming-typescript/9781492037644/
+- B-03 Node.js Design Patterns, 4th ed.. https://www.packtpub.com/en-us/product/nodejs-design-patterns-fourth-edition-9781803238944
+- B-04 Design Patterns: Elements of Reusable Object-Oriented Software (GoF). https://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610
+- B-05 Refactoring, 2nd ed.. https://martinfowler.com/books/refactoring.html
+- B-06 Domain-Driven Design: Tackling Complexity in the Heart of Software. https://www.domainlanguage.com/ddd/
+- B-07 Implementing Domain-Driven Design. https://www.informit.com/store/implementing-domain-driven-design-9780321834577
+- B-08 Learning Domain-Driven Design. https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/
+- B-09 Clean Architecture. https://www.informit.com/store/clean-architecture-a-craftsmans-guide-to-software-structure-9780134494166
+- B-10 Patterns of Enterprise Application Architecture. https://martinfowler.com/books/eaa.html
+- B-11 Domain Modeling Made Functional. https://pragprog.com/titles/swdddf/domain-modeling-made-functional/
+- B-12 Designing Data-Intensive Applications, 2nd ed.. https://dataintensive.net/
+- B-13 A Philosophy of Software Design, 2nd ed.. https://web.stanford.edu/~ouster/cgi-bin/book.php
+- B-14 Release It!, 2nd ed.. https://pragprog.com/titles/mnee2/release-it-second-edition/
+- B-15 Grokking Simplicity. https://www.manning.com/books/grokking-simplicity
+- B-16 Total TypeScript: Essentials. https://www.totaltypescript.com/books/total-typescript-essentials
+- B-17 Functional-Light JavaScript. https://github.com/getify/Functional-Light-JS
+- B-18 Building Microservices, 2nd ed.. https://samnewman.io/books/building_microservices_2nd_edition/
+
+## Repositories
+
+- Metadata survey: 270 TypeScript backend repos, listed in `phase-2/boilerplates.csv`. Method: `phase-2/scripts/survey.mjs` (GitHub API metadata only).
+- Deep read: 32 repos, shallow-cloned to `phase-2/repos/` (gitignored, never executed). Listed in `phase-3/boilerplate-deep-dive.md`:
+  - https://github.com/AtaDevPro/nestjs-api-starter
+  - https://github.com/DriftOS/fastify-starter
+  - https://github.com/Joker666/hono-starter
+  - https://github.com/KhaledSaeed18/node-express-boilerplate
+  - https://github.com/MarkNjunge/nest-boilerplate
+  - https://github.com/NarHakobyan/awesome-nest-boilerplate
+  - https://github.com/Sairyss/domain-driven-hexagon
+  - https://github.com/SyahrulBhudiF/Hono-Starter-Code
+  - https://github.com/ToniR7/express-typescript-starter
+  - https://github.com/andrechristikan/ack-nestjs-boilerplate
+  - https://github.com/brocoders/nestjs-boilerplate
+  - https://github.com/dataquail/functional-domain-driven-hexagon
+  - https://github.com/edwinhern/express-typescript
+  - https://github.com/fastify/demo
+  - https://github.com/gonzaloplaza/express-ts-ddd
+  - https://github.com/jellydn/fastify-starter
+  - https://github.com/jsynowiec/node-typescript-boilerplate
+  - https://github.com/mehdihadeli/nestjs-vertical-slice-template
+  - https://github.com/mikemajesty/nestjs-microservice-boilerplate-api
+  - https://github.com/milis92/nestjs-boilerplate
+  - https://github.com/nirnejak/hono-bun-starter
+  - https://github.com/notiz-dev/nestjs-prisma-starter
+  - https://github.com/practicajs/practica
+  - https://github.com/santoshshinde2012/node-boilerplate
+  - https://github.com/tjuandev/node-joker
+  - https://github.com/typv/nest-turbo-starter
+  - https://github.com/vitorsalgado/create-nodejs-ts
+  - https://github.com/vyancharuk/nodejs-api-boilerplate
+  - https://github.com/w3tecch/express-typescript-boilerplate
+  - https://github.com/yeasin2002/express-ts-starter
+  - https://github.com/yonathan06/fastify-typescript-starter
+  - https://github.com/zrosenbauer/fastify-prisma
+
+## Measurements
+
+- `phase-3/bench/results.md`: HTTP frameworks, compile/build/start, validation, logging, image size, start-up. Scripts are in `phase-3/bench/*`.
+- `phase-5/verify.log`: boilerplate verification.
+- `phase-5/snippet-check/result.log`: typecheck of the guide's code samples.

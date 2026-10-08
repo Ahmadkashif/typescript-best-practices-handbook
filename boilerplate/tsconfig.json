@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    /* Language and environment: Node 24 LTS runs ES2025 natively. */
+    "target": "es2025",
+    "lib": ["es2025"],
+    "types": ["node"],
+
+    /* Modules: native ESM resolved exactly the way Node resolves it. */
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+
+    /* Only syntax Node's type stripping can erase: no enums, namespaces,
+       parameter properties or legacy decorators. */
+    "erasableSyntaxOnly": true,
+
+    /* tsc only typechecks; tsdown emits. Imports carry their real .ts extension. */
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+
+    /* Type safety: strict plus every flag that catches real bugs. */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Do not typecheck third-party .d.ts files. */
+    "skipLibCheck": true
+  },
+  "include": ["src", "test", "*.config.ts"]
+}

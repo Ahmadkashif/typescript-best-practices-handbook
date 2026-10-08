@@ -1,0 +1,12 @@
+{"lib":"zod","buildAndFirstParseMs":8.54,"next100Ms":2.94}
+{"lib":"zod","buildAndFirstParseMs":8.51,"next100Ms":3.02}
+{"lib":"zod","buildAndFirstParseMs":9.04,"next100Ms":3.14}
+{"lib":"valibot","buildAndFirstParseMs":1.59,"next100Ms":2.93}
+{"lib":"valibot","buildAndFirstParseMs":1.6,"next100Ms":2.95}
+{"lib":"valibot","buildAndFirstParseMs":1.49,"next100Ms":2.91}
+{"lib":"typebox","buildAndFirstParseMs":74.49,"next100Ms":0.66}
+{"lib":"typebox","buildAndFirstParseMs":73.94,"next100Ms":0.65}
+{"lib":"typebox","buildAndFirstParseMs":74.4,"next100Ms":0.64}
+{"lib":"ajv","buildAndFirstParseMs":66.66,"next100Ms":0.87}
+{"lib":"ajv","buildAndFirstParseMs":67.45,"next100Ms":0.88}
+{"lib":"ajv","buildAndFirstParseMs":67.51,"next100Ms":0.89}

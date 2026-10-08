@@ -1,0 +1,14 @@
+{
+  "name": "bench-compile",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "esbuild": "0.28.2",
+    "tsdown": "0.23.0",
+    "tsup": "8.5.1",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "typescript6": "npm:typescript@6.0.3"
+  }
+}

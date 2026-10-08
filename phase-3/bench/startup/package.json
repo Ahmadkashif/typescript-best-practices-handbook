@@ -1,0 +1,7 @@
+{
+  "name": "bench-startup",
+  "private": true,
+  "type": "module",
+  "dependencies": { "fastify": "5.12.5", "pino": "10.4.0", "zod": "4.6.5" },
+  "devDependencies": { "esbuild": "0.28.2", "tsx": "4.23.15", "typescript": "7.0.2", "@types/node": "^24.0.0" }
+}

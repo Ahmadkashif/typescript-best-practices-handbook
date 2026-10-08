@@ -1,0 +1,9 @@
+slim bundle 331103762 exit=0 ready 111.7
+slim unbundled 355817819 exit=0 ready 160.1
+alpine bundle 242816731 exit=0 ready 131.9
+alpine unbundled 267530785 exit=0 ready 203.1
+distroless bundle 215642337 exit=0 ready 127.9
+distroless unbundled 240356401 exit=0 ready 177.1
+base gcr.io/distroless/nodejs24-debian13:nonroot 214296278
+base node:24-slim 329757392
+base node:24-alpine 241470359
